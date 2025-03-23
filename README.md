@@ -14,7 +14,7 @@ Ensure system health, performance monitoring, and capacity planning using essent
    - Run `htop` or `nmon` to view system stats.
 3. **Track Disk Usage:**
    - View available space: `df -h` 💾
-   - Analyze directory sizes: `du -sh /var/www/html` 📂
+   - Analyze directory sizes: `du -sh /home` 📂
 4. **Identify Resource-Intensive Processes:**
    - Use `ps aux --sort=-%mem | head -10` to find top memory consumers 🚀
    - Use `top` to monitor real-time usage.
